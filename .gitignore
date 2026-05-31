@@ -1,0 +1,24 @@
+# Captured face images and trained models (regenerated at runtime)
+static/faces/*
+!static/faces/.gitkeep
+static/*.pkl
+static/*.h5
+
+# Generated attendance sheets
+Attendance/*.csv
+!Attendance/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
